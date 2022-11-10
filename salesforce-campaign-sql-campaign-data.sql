@@ -1,0 +1,50 @@
+CREATE TABLE `salesforce_campaign_campaign_data`
+(
+  `ActualCost`                       int(15) DEFAULT NULL,
+  `AmountAllOpportunities`           int(15) DEFAULT NULL,
+  `AmountWonOpportunities`           int(15) DEFAULT NULL,
+  `BudgetedCost`                     int(15) DEFAULT NULL,
+  `CampaignImageId`                  int(16) DEFAULT NULL,
+  `CampaignMemberRecordTypeId`       int(16) DEFAULT NULL,
+  `CurrencyIsoCode`                  varchar(3) DEFAULT NULL,
+  `Description`                      varchar() DEFAULT NULL,
+  `EndDate`                          date DEFAULT NULL,
+  `ExpectedResponse`                 float(6) DEFAULT NULL,
+  `ExpectedRevenue`                  int(15) DEFAULT NULL,
+  `HierarchyActualCost`                  () DEFAULT NULL,
+  `HierarchyBudgetedCost`                () DEFAULT NULL,
+  `HierarchyExpectedRevenue`             () DEFAULT NULL,
+  `HierarchyNumberSent`              int(10) DEFAULT NULL,   
+  `IsActive`                         tinyint(1) DEFAULT NULL,
+  `LastReferencedDate`               date DEFAULT NULL,
+  `LastViewedDate`                   date DEFAULT NULL,
+  `Name`                             varchar(200) DEFAULT NULL,
+  `NumberOfContacts`                 int(3) DEFAULT NULL,
+  `NumberOfConvertedLeads`           int(10) DEFAULT NULL,
+  `NumberOfLeads`                    int(10) DEFAULT NULL,
+  `NumberOfOpportunities`            int(10) DEFAULT NULL,
+  `NumberOfResponses`                int(10) DEFAULT NULL,
+  `NumberOfWonOpportunities`         int(10) DEFAULT NULL,
+  `NumberSent`                       int(10) DEFAULT NULL,
+  `OwnerId`                          int(16) DEFAULT NULL,
+  `ParentCampaign`                   varchar(3) DEFAULT NULL,
+  `ParentId`                         int(16) DEFAULT NULL,
+  `RecordTypeId`                     int(16) DEFAULT NULL,
+  `StartDate`                        date DEFAULT NULL,
+  `Status`                           varchar(40) DEFAULT NULL,
+  `TotalAmountAllOpportunities`          () DEFAULT NULL,
+  `TotalAmountAllWonOpportunities`       () DEFAULT NULL,
+  `TotalNumberofContacts`            int(3) DEFAULT NULL,
+  `TotalNumberofConvertedLeads`      int(10) DEFAULT NULL,
+  `TotalNumberofLeads`               int(10) DEFAULT NULL,
+  `TotalNumberofOpportunities`       int(10) DEFAULT NULL,
+  `TotalNumberofResponses`           int(10) DEFAULT NULL,
+  `TotalNumberofWonOpportunities`    int(10) DEFAULT NULL,
+  `Type`                             varchar(40) DEFAULT NULL,
+  
+  
+  
+    PRIMARY KEY (``)
+
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8mb4;
